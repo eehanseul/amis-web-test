@@ -36,14 +36,14 @@ const TechnologyCardList: React.FC = () => {
         <Link
           to={tech.link}
           key={tech.title}
-          className="block bg-white shadow-md hover:shadow-xl transition rounded-2xl border border-gray-200 p-6"
+          className="card"
         >
-          <h3 className="text-xl font-semibold text-blue-600">{tech.title}</h3>
-          <p className="text-gray-700 mt-2">{tech.description}</p>
+          <h3 className="card-title">{tech.title}</h3>
+          <p className="card-description">{tech.description}</p>
         </Link>
       ))}
     </section>
   );
-};
+}
 
 export default TechnologyCardList;
