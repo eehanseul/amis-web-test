@@ -16,4 +16,13 @@ export default {
     },
   },
   plugins: [],
+  safelist: [
+    'section-title',
+    'tech-card',
+    'tech-title',
+    'tech-description',
+    'sidebar',
+    'category-name',
+    'toc-link',
+  ],
 }
