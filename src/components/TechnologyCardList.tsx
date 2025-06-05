@@ -16,7 +16,7 @@ interface Props {
 
 const TechnologyCardList: React.FC<Props> = ({technologies}) => {
   return (
-    <section className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 py-12 px-4 max-w-6xl mx-auto">
+    <section className="flex flex-col gap-8 py-12 px-4 max-w-3xl mx-auto">
       {technologies.map((tech) => (
         <Link
           to={tech.link}
